@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Using HTML</title>
+</head>
+<body>
+    <center>
+<h1>STUDENT REGISTRATION FORM</h1>
+    <table border="1">
+        <tr>
+            <td>Firt Name:</td>
+            <td><input type="text" placeholder="Please Enter Firt Name" size="30"></td>
+        </tr>
+        <tr>
+            <td>Last Name:</td>
+            <td><input type="text" placeholder="Please Enter Your Last Name" size="30"></td>
+        </tr>
+        <tr>
+            <td>Gender:</td>
+            <td>
+                <label><input type="radio" name="radio">Male</label>
+                <label><input type="radio" name="radio">Female</label>
+                <label><input type="radio" name="radio">Gey</label>
+            </td>
+        </tr>
+        <tr>
+            <td>Day of Birth:</td>
+            <td><input type="date" name="datetime" 
+            value="2021-02-14" min="2021-02-14" max="2099-12-12"></td>
+        </tr>
+        <tr>
+            <td>Phone Number:</td>
+            <td><input type="number" name="phonenumber" placeholder="Enter Your Phone Number"></td>
+        </tr>
+        <tr>
+            <td>Email:</td>
+            <td><input type="email" name="email"></td>
+        </tr>
+        <tr>
+            <td>DOP:</td>
+            <td><textarea name="dop" cols="30" role="16"></textarea></td>
+        </tr>
+        <tr>
+            <td>Current Address:</td>
+            <td><textarea name="dop" cols="30" role="16"></textarea></td>
+        </tr>
+        <tr>
+            <td>National:</td>
+            <td>
+                <select><option>---Pls Select National---</option>
+                <option>
+                    <option>KHmer</option>
+                    <option>US</option>
+                    <option>English</option>
+                    <option>Singapor</option>
+                    <option>Frience</option>
+                </option>
+                </select>
+            </td>
+        </tr>
+                <tr>
+            <td>Country:</td>
+            <td>
+                <select><option>---Pls Select Country---</option>
+                <option>
+                    <option>KHmer</option>
+                    <option>US</option>
+                    <option>English</option>
+                    <option>Singapor</option>
+                    <option>Frience</option>
+                </option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>Study Major:</td>
+            <td>
+                <select><option>---Pls Select Major---</option>
+                <option>
+                    <option>SE</option>
+                    <option>CNCS</option>
+                    <option>CMD</option>
+                </option>
+                </select>
+            </td>
+        </tr>
+
+        <tr>
+            <td>Brow File:</td>
+            <td><input type="file"></td>
+        </tr>
+
+        <tr>
+            <td>Shift:</td>
+            <td>
+            <input type="checkbox" name="shift">Morning
+            <input type="checkbox" name="shift">Afternoon
+            <input type="checkbox" name="shift">Evening
+        </td>
+        </tr>
+
+        <tr>
+            <td>Action:</td>
+            <td>
+                <input type="submit">
+                <input type="reset">
+            </td>
+        </tr>
+
+        <tr>
+            <td><textarea name="" id="" cols="30" rows="10" readonly></textarea></td>
+        </tr>
+
+    </table>
+
+    <tr>
+        <td>Income:</td>
+        <td>
+            <select>
+                <option>125$</option>
+                <option>25$</option>
+            </select>
+        </td>
+    </tr>
+
+        <form action="dashborad.html" method="get">
+        <h2>Sing Up With Facebook</h2>
+        <label>First Name:</label><br>
+        <input type="text" placeholder=""><br>
+        <label>Last Name:</label><br>
+        <input type="text" placeholder=""><br>
+        <label>Email:</label><br>
+        <input type="text" placeholder="Mobile Number or Email"><br>
+        <label>New Password:</label><br>
+        <input type="password" placeholder="New Password"><br>
+        <label>Confirm Password:</label><br>
+        <input type="password" placeholder="Confirm Password"><br>
+        <label>Birthday:</label><br>
+        <select>
+            <option>January</option>
+            <option>Desember</option>
+        </select>
+        <select>
+            <option>1</option>
+            <option>30</option>
+        </select>
+        <select>
+            <option>2002</option>
+            <option>2022</option>
+        </select><br>
+        <label>Gender</label>
+        <select>
+            <option>Female</option>
+            <option>Male</option>
+            <option>Gey</option>
+        </select><br>
+
+        <input type="file" name="filestoreimg">
+        <input type="text" name="id" hidden>
+
+        <button name="btnSingUp">Sign UP</button>
+
+    </form>
+
+    </center>
+
+
+
+</body>
+</html>
